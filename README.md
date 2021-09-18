@@ -21,6 +21,8 @@ curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billTy
 <h2> Generating voverage report</h2>
   
   Run <b> ./gradlew build jacocoTestReport </b> on root folder 
+  <br>
+located at  main/build/reports/jacoco/
   
   <h3> API documentation </h3>
   
