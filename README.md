@@ -1,0 +1,2 @@
+# discountapi
+calculates discounts
