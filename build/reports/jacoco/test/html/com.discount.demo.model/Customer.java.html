@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Customer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">disacountapi</a> &gt; <a href="index.source.html" class="el_package">com.discount.demo.model</a> &gt; <span class="el_source">Customer.java</span></div><h1>Customer.java</h1><pre class="source lang-java linenums">package com.discount.demo.model;
+
+import org.springframework.data.annotation.Id;
+
+/*
+ * Model data of the customer
+ */
+public class Customer {
+	
+	public long id;
+	public String name;
+	public boolean isEmployee;
+	public boolean isAffiliate;
+	public String dateRegistered;
+	
+	
+	
+	
+	public Customer(long id, String name, boolean isEmployee, boolean isAffiliate, String dateRegistered) {
+<span class="fc" id="L20">		super();</span>
+<span class="fc" id="L21">		this.id = id;</span>
+<span class="fc" id="L22">		this.name = name;</span>
+<span class="fc" id="L23">		this.isEmployee = isEmployee;</span>
+<span class="fc" id="L24">		this.isAffiliate = isAffiliate;</span>
+<span class="fc" id="L25">		this.dateRegistered = dateRegistered;</span>
+<span class="fc" id="L26">	}</span>
+	@Id
+	public long getId() {
+<span class="nc" id="L29">		return id;</span>
+	}
+	public void setId(long id) {
+<span class="nc" id="L32">		this.id = id;</span>
+<span class="nc" id="L33">	}</span>
+	public String getName() {
+<span class="nc" id="L35">		return name;</span>
+	}
+	public void setName(String name) {
+<span class="nc" id="L38">		this.name = name;</span>
+<span class="nc" id="L39">	}</span>
+	public boolean isEmployee() {
+<span class="nc" id="L41">		return isEmployee;</span>
+	}
+	public void setEmployee(boolean isEmployee) {
+<span class="nc" id="L44">		this.isEmployee = isEmployee;</span>
+<span class="nc" id="L45">	}</span>
+	public boolean isAffiliate() {
+<span class="nc" id="L47">		return isAffiliate;</span>
+	}
+	public void setAffiliate(boolean isAffiliate) {
+<span class="nc" id="L50">		this.isAffiliate = isAffiliate;</span>
+<span class="nc" id="L51">	}</span>
+	public String getDateRegistered() {
+<span class="nc" id="L53">		return dateRegistered;</span>
+	}
+	public void setDateRegistered(String dateRegistered) {
+<span class="nc" id="L56">		this.dateRegistered = dateRegistered;</span>
+<span class="nc" id="L57">	}</span>
+	
+	
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
