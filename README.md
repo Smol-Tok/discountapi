@@ -17,3 +17,11 @@ On terminal $ curl localhost:7770/api/v1/paybill . A list of customers are displ
 
 To pay bill <br />
 curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billType": "bill",  "amount": 995 }' http://localhost:7770/api/v1/paybill -i
+
+<h2> Generating voverage report</h2>
+  
+  Run <b> ./gradlew build jacocoTestReport </b> on root folder 
+  
+  <h3> API documentation </h3>
+  
+Post api located at can be used for documenting the API https://www.postman.com/api-documentation-tool/ 
