@@ -3,10 +3,10 @@ calculates discounts
 
 <h1> Running the application </h1>
 
-The executable application is located at root folder  <b>build\libs </b>
+To run the API application navigate to  <b>build\libs </b>
 
 <br/>
-The application may be run by run by opening command prompe and issueing command $ java -jar disacountapi-0.0.1.jar
+Run the application by executing the command <b>java -jar disacountapi-0.0.1.jar </a>
 
 <br />
 <h3>API Test </h3>
