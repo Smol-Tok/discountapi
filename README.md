@@ -16,6 +16,8 @@ On terminal run <b>curl localhost:7770/api/v1/paybill</b> . A list of customers 
   </small> </i>
 <br />
 
+<p>Posting a paybill  requires the customer Id , the amount and the bill type. Bill type can either be grocery or bill</p>
+
 To pay bill execute <b> curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billType": "grocery",  "amount": 995 }' http://localhost:7770/api/v1/paybill -i</b>
 <br />
 The netpayment is returned <i>
