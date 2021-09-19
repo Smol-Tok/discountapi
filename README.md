@@ -39,4 +39,4 @@ Reports are located at <b>build\reports\tests\test</b>
   
   <h3> API documentation </h3>
   
-Post api located at can be used for documenting the API https://www.postman.com/api-documentation-tool/ 
+Postman can be used to document the API. Postman collections is a set of pre-built requests grouped into folders during testing and can be  exported and shared. 
