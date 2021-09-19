@@ -20,9 +20,14 @@ curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billTy
 
 <h2> Generating coverage report</h2>
   
-  Run <b> ./gradlew build jacocoTestReport </b> on cmd while in root folder 
+  Run <b> "./gradlew build jacocoTestReport" </b> on cmd while in root folder 
   <br>
 Reports are located at  main/build/reports/jacoco/
+
+<h2> Running unit test report</h2>
+Run "./gradlew test --tests  DisacountapiApplicationTests" on cmd while in root folder  
+<br />
+Reports are located at build\reports\tests\test  
   
   <h3> API documentation </h3>
   
