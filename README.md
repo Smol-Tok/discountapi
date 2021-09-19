@@ -40,3 +40,7 @@ Reports are located at <b>build\reports\tests\test</b>
   <h3> API documentation </h3>
   
 Postman can be used to document the API. Postman collections is a set of pre-built requests grouped into folders during testing and can be  exported and shared. 
+
+
+<h1> Class diagram</h1>
+<img src="https://github.com/Smol-Tok/discountapi/blob/main/uml%20diagram.PNG" />
