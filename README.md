@@ -25,7 +25,7 @@ curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billTy
 Reports are located at  main/build/reports/jacoco/
 
 <h2> Running unit test report</h2>
-Run "./gradlew test --tests  DisacountapiApplicationTests" on cmd while in root folder  
+Run <b>"./gradlew test --tests  DisacountapiApplicationTests"</b> on cmd while in root folder  
 <br />
 Reports are located at build\reports\tests\test  
   
