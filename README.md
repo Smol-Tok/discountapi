@@ -11,6 +11,9 @@ Run the application by executing the command <b>java -jar disacountapi-0.0.1.jar
 <h3>API Test </h3>
 
 On terminal run <b>curl localhost:7770/api/v1/paybill</b> . A list of customers are displayed
+
+<i><small>[{"id":1,"name":"John Wick","isEmployee":true,"isAffiliate":false,"dateRegistered":"2021-04-02","employee":true,"affiliate":false},{"id":2,"name":"Spider Man","isEmployee":true,"isAffiliate":false,"dateRegistered":"2010-04-02","employee":true,"affiliate":false},{"id":3,"name":"Super Man","isEmployee":true,"isAffiliate":false,"dateRegistered":"2004-04-02","employee":true,"affiliate":false},{"id":4,"name":"Batma","isEmployee":true,"isAffiliate":true,"dateRegistered":"2021-04-02","employee":true,"affiliate":true},{"id":5,"name":"John Wick","isEmployee":true,"isAffiliate":true,"dateRegistered":"2001-04-02","employee":true,"affiliate":true},{"id":6,"name":"Green Goblin","isEmployee":false,"isAffiliate":false,"dateRegistered":"2004-04-02","employee":false,"affiliate":false}]
+  </small> </i>
 <br />
 
 To pay bill <br />
