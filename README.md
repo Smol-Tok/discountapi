@@ -16,7 +16,8 @@ On terminal run <b>curl localhost:7770/api/v1/paybill</b> . A list of customers 
   </small> </i>
 <br />
 
-To pay bill execute <b> curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billType": "bill",  "amount": 995 }' http://localhost:7770/api/v1/paybill -i</b>
+To pay bill execute <b> curl -X POST -H 'Content-Type: application/json' -d '{ "customerID": 1,  "billType": "grocery",  "amount": 995 }' http://localhost:7770/api/v1/paybill -i</b>
+The netpayment is returned <i>{"discount":"$ 45.0","netpayment":"$ 950.0"}</i>
 
 <h2> Generating coverage report</h2>
   
