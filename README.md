@@ -21,6 +21,9 @@ To pay bill execute <b> curl -X POST -H 'Content-Type: application/json' -d '{ "
 The netpayment is returned <i>
 {"discount":"$ 45.0","netpayment":"$ 950.0"}</i>
 
+<h2>Postman test</h2>
+<img src="https://github.com/Smol-Tok/discountapi/blob/main/postmanpost.PNG" />
+
 <h2> Generating coverage report</h2>
   
   Run <b> "./gradlew build jacocoTestReport" </b> on cmd while in root folder 
