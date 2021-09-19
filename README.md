@@ -4,15 +4,13 @@ calculates discounts
 <h1> Running the application </h1>
 
 To run the API application navigate to  <b>build\libs </b>
-
 <br/>
-Run the application by executing the command <b>java -jar disacountapi-0.0.1.jar </a>
+Run the application by executing the command <b>java -jar disacountapi-0.0.1.jar </b>
 
 <br />
 <h3>API Test </h3>
 
-
-On terminal $ curl localhost:7770/api/v1/paybill . A list of customers are displayed
+On terminal run <b>curl localhost:7770/api/v1/paybill</b> . A list of customers are displayed
 <br />
 
 To pay bill <br />
